@@ -1,28 +1,22 @@
-baseURL = "https://www.burakaltundal.com/"
-languageCode = "en-us"
-title = "Burak Altundal"
+baseURL = "https://www.www.kasiguzelkorler.org/"
+locale = "tr-TR"
+title = "Kaşı Güzel Körler Derneği"
 enableRobotsTXT = true
-paginate = 10
 summaryLength = 10
 googleAnalytics = "" 
 publishDir = "docs"
-
+[pagination]
+  pagerSize = 10
 [taxonomies]
   category = "kategori"
   tag = "etiket"
 
-[author]
-	name = "buyucu"
-
 [params]
-  author = "Burak Altundal"
-  description = "Burak Altundal | büyücü"
-	alias = "büyücü"
+  author = "büyücü"
+  description = ""
   images = ["buyucu.png"]
 
   showReadMore = true
-  email = "burak.altundal@gmail.com"
-  twitter = "baltundal"
   instagram = "buyucu"
 
   # Programming
@@ -31,8 +25,8 @@ publishDir = "docs"
 
 # Menu links along the sidebar navigation.
 [[menu.main]]
-	identifier = "kim"
-	name = "kim?"
-	url = "/kim/"
+	identifier = "nedir"
+	name = "nedir?"
+	url = "/nedir/"
 	weight = 1
 

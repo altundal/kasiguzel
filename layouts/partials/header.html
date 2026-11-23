@@ -4,18 +4,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-  
 
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
   <title>{{ if .IsHome }}
-    Burak Altundal  
+    {{ .Site.Title }}
     {{ if isset .Site.Params "description" }}
-       &bull; {{ .Site.Params.Description | markdownify }}
-      {{ end }}
+    &bull; {{ .Site.Params.Description | markdownify }}
+    {{ end }}
     {{ else }}
-      {{ .Title }} &bull; {{ .Site.Title }}
+    {{ .Title }} &bull; {{ .Site.Title }}
     {{ end }}
   </title>
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -27,7 +28,8 @@
   <meta name="theme-color" content="#ffffff">
   {{ template "_internal/twitter_cards.html" . }}
   {{ with .OutputFormats.Get "RSS" }}
-  {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ printf `
+  <link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end }}
 
   {{ partial "style.html" . }}
@@ -38,22 +40,23 @@
     <nav class="navbar navbar-expand-md navbar-light">
 
       <a href="/" class="navbar-brand align-items-left inverse">
-        <img class="buyucu-art" src="/buyucu.svg" alt="Ayazda bir kertenkele"/>burak altundal
+        {{ .Site.Title }}
 
         {{ if isset .Site.Params "alias" }}
         <div class="buyucu">
-           {{ .Site.Params.Alias}}
+          {{ .Site.Params.Alias}}
         </div>
-      {{ end }}
+        {{ end }}
       </a>
-    
+
 
       <div class=" navbar-right" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           {{ range .Site.Menus.main }}
-            <a class="inverse nav-item nav-link {{ if eq $.RelPermalink .URL}}active{{ end }}" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+          <a class="inverse nav-item nav-link {{ if eq $.RelPermalink .URL}}active{{ end }}"
+            href="{{ .URL | relLangURL }}">{{ .Name }}</a>
           {{ end }}
-          
+
         </div>
       </div>
 

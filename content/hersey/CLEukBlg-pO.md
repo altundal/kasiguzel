@@ -1,7 +1,6 @@
 ---
 title: "A postmodern gangster."
 where: ""
-description: "A postmodern gangster."
 images: ["/images/hersey/CLEukBlg-pO.jpg"]
 kategori: ["hersey"]
 etiket: ["hersey"]
