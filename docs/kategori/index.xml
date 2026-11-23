@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Kategori on Kaşı Güzel Körler Derneği</title>
-		<link>https://www.www.kasiguzelkorler.org/kategori/</link>
+		<link>https://www.kasiguzelkorler.org/kategori/</link>
 		<description>Recent content in Kategori on Kaşı Güzel Körler Derneği</description>
 		<generator>Hugo</generator>
 		<language>tr-TR</language>
@@ -12,33 +12,33 @@
 		
 			<lastBuildDate>Tue, 07 May 2024 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="https://www.www.kasiguzelkorler.org/kategori/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://www.kasiguzelkorler.org/kategori/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Yazı</title>
-				<link>https://www.www.kasiguzelkorler.org/kategori/yaz%C4%B1/</link>
+				<link>https://www.kasiguzelkorler.org/kategori/yaz%C4%B1/</link>
 				<pubDate>Tue, 07 May 2024 00:00:00 +0000</pubDate>
-				<guid>https://www.www.kasiguzelkorler.org/kategori/yaz%C4%B1/</guid>
+				<guid>https://www.kasiguzelkorler.org/kategori/yaz%C4%B1/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Günce</title>
-				<link>https://www.www.kasiguzelkorler.org/kategori/g%C3%BCnce/</link>
+				<link>https://www.kasiguzelkorler.org/kategori/g%C3%BCnce/</link>
 				<pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-				<guid>https://www.www.kasiguzelkorler.org/kategori/g%C3%BCnce/</guid>
+				<guid>https://www.kasiguzelkorler.org/kategori/g%C3%BCnce/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Mektup</title>
-				<link>https://www.www.kasiguzelkorler.org/kategori/mektup/</link>
+				<link>https://www.kasiguzelkorler.org/kategori/mektup/</link>
 				<pubDate>Sun, 21 Feb 2021 00:00:00 +0000</pubDate>
-				<guid>https://www.www.kasiguzelkorler.org/kategori/mektup/</guid>
+				<guid>https://www.kasiguzelkorler.org/kategori/mektup/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Siir</title>
-				<link>https://www.www.kasiguzelkorler.org/kategori/siir/</link>
+				<link>https://www.kasiguzelkorler.org/kategori/siir/</link>
 				<pubDate>Fri, 27 Nov 2020 00:00:00 +0000</pubDate>
-				<guid>https://www.www.kasiguzelkorler.org/kategori/siir/</guid>
+				<guid>https://www.kasiguzelkorler.org/kategori/siir/</guid>
 				<description></description>
 			</item>
 	</channel>
